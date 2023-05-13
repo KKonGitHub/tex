@@ -1,0 +1,35 @@
+\documentclass[lualatex]{exam}
+\usepackage{luatexja}
+\usepackage{float}
+\usepackage{pifont}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\newcommand{\cl}[1]{\overline{ #1}  }
+\newcommand{\Int}[1]{#1 ^{\mathrm{o}} }
+\newcommand{\bd}[1]{\operatorname{Bd}{#1}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{claim}{Claim}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}[section]
+\theoremstyle{plain}
+\newtheorem{example}{Example}[section]
+\newtheorem{exercise}{Exercise}[section]
+\newcommand{\jtoday}{\number \year 年 \number \month 月 \number \day 日}
+\renewcommand{\solutiontitle}{\noindent\textbf{解答}\par\noindent}
+
+\begin{document}
+\centerline{\Large test of tex }
+\rightline{\jtoday}
+\rightline{氏名: 葛堀和也}
+\rightline{学籍番号: 04B21024}
+\rightline{E-mail \url{u748668j@osaka-u.ac.jp}}
+
+	
+\end{document}
